@@ -43,3 +43,4 @@ streamlit-authenticator==0.2.1
 streamlit-option-menu==0.3.2
 ta==0.10.2
 tenacity==8.2.2
+openpyxl
