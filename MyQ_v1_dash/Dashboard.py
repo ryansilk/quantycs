@@ -58,21 +58,8 @@ if "username" not in st.session_state:
         c1, c2 = st.columns([3, 5])
 
         with c1:
-
-            # Load the Excel file
-            excel_file = '/Users/ryansilk/PycharmProjects/MyQ_v1_dash/pages/Stock_List.xlsx'
-            df = pd.read_excel(excel_file)
-
-            options = df['symbol'].tolist()  # Replace 'Column_Name' with the actual column name from your Excel sheet
-
-            tickerSymbol = st.selectbox('Select a stock:', options)
-
-            # Perform VLOOKUP to get the corresponding value
-            value = df.loc[df['symbol'] == tickerSymbol, 'name'].values[
-                0]  # Replace 'Value_Column' with the actual column name containing the values
-
-            st.write(value)
-
+            tickerSymbol = st.text_input('Select a stock:')
+            
         with c2:
             tickerTime = st.radio(
                 'Select time period for analysis',
