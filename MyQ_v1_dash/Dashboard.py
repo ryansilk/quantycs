@@ -60,7 +60,8 @@ if "username" not in st.session_state:
         with c1:
 
             # Load the Excel file
-            excel_file = '/Users/ryansilk/PycharmProjects/MyQ_v1_dash/pages/Stock_List.xlsx'
+            excel_file = 'MyQ_v1_dash/pages/Stock_List.xlsx'
+
             df = pd.read_excel(excel_file)
 
             options = df['symbol'].tolist()  # Replace 'Column_Name' with the actual column name from your Excel sheet
