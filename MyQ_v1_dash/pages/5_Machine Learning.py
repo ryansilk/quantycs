@@ -15,7 +15,7 @@ def display_subscription_message():
 
     st.write("There's a 7 day free trial!")
 
-    url = 'https://buy.stripe.com/6oEaHAaZG6s0a4g4gg'
+    url = 'https://buy.stripe.com/7sIdRK4ti85E2paeUU'
 
     st.markdown(
         f'''
