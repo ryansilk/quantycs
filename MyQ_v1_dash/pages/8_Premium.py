@@ -23,7 +23,7 @@ def display_subscription_message():
 STRIPE_CHECKOUT = "https://buy.stripe.com/dR67uJeBa7BweoE5kl"
 
 DEMO_VIDEO = "https://youtu.be/PmJ9rkKGqrI"
-PRODUCT_NAME = "MyQuantfolio Premium"
+PRODUCT_NAME = "Quantycs Premium"
 PRODUCT_TAGLINE = "Ready To Take Your Trading To The Next Level? 🚀"
 PRODUCT_DESCRIPTION = """
        MyQuantfolio provides everyday traders with institutional grade data, to make better informed trading decisions:
