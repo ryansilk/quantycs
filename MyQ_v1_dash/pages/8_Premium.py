@@ -26,7 +26,7 @@ DEMO_VIDEO = "https://youtu.be/PmJ9rkKGqrI"
 PRODUCT_NAME = "Quantycs Premium"
 PRODUCT_TAGLINE = "Ready To Take Your Trading To The Next Level? 🚀"
 PRODUCT_DESCRIPTION = """
-       MyQuantfolio provides everyday traders with institutional grade data, to make better informed trading decisions:
+       Quantycs provides everyday traders with institutional grade data, to make better informed trading decisions:
 
        - Gain institutional grade insight data into the stocks, bonds, commodity & FX markets!
        - Screen hundreds of stocks quantitatively
