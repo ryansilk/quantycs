@@ -34,7 +34,7 @@ def display_subscription_message():
         unsafe_allow_html=True
     )
 import pyEX as p
-token = 'sk_17ccaec85d7943a78c9269f9e17f664e'
+token = 'pk_a54d1f90eb574b2d978d86b6454bef3e'
 
 st.set_page_config(layout="wide")
 st.write('<style>div.row-widget.stRadio > div{flex-direction:row;justify-content: left;} </style>', unsafe_allow_html=True)
