@@ -31,7 +31,7 @@ def display_subscription_message():
         unsafe_allow_html=True
     )
 
-token = 'pk_a54d1f90eb574b2d978d86b6454bef3e'
+token = 'pk_94d120d039ca45a2b435d9e5a040515f'
 
 pd.options.mode.chained_assignment = None
 np.random.seed(0)
