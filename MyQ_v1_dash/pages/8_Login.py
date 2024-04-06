@@ -38,7 +38,7 @@ valid_credentials = {
     "emma": "emmasilk",
     "ryan": "ryan123",
     "admin": "admin",
-    "larry": "larry",
+    "Larry": "Larry",
 }
 
 # Define the login form
